@@ -9,7 +9,7 @@ function LocationAndDate({
 	return (
 		<div>
 			<h2 className='text-light text-left m-4'>Weather Data</h2>
-			<div className='leftContent mx-5  d-flex align-items-center'>
+			<div className='leftContent mx-5  d-flex align-items-center bg-secondary'>
 				<h3 className='cityName mx-2'>{Math.round(temp)}°C</h3>
 				<div className='d-flex flex-column align-items-left mx-2'>
 					<h3>{`${name}`}</h3>
