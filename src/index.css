@@ -1,0 +1,135 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+	font-family: "Quicksand", sans-serif;
+	color-scheme: dark;
+}
+
+.hero {
+	width: 100%;
+	height: 100vh;
+	background-size: cover;
+}
+.image {
+	width: 50%;
+}
+
+.weatherInput {
+	color: lightgray !important;
+}
+
+.image {
+	width: 4rem;
+}
+.input::placeholder {
+	color: white;
+	font-size: 20px;
+	opacity: 0.8;
+}
+.input[type="text"] {
+	width: 93%;
+	border: none;
+	border-bottom: 1px solid lightgray;
+	color: lightgray;
+	background-color: transparent;
+}
+
+input:focus {
+	outline: none;
+	background-color: transparent;
+}
+
+.btn {
+	background-color: transparent !important;
+	border: none !important;
+}
+
+.leftContent {
+	position: relative;
+	top: 30rem !important;
+}
+
+.detailsBg {
+	background: rgba(0, 0, 0, 0.5);
+	backdrop-filter: blur(10px);
+	overflow-y: scroll;
+}
+
+.divider {
+	width: 80% !important;
+	border: 1px solid lightgray !important;
+	color: lightgray !important;
+	background-color: #fff !important;
+}
+
+/* .bgImage {
+	width: 100%;
+} */
+
+.cityTemp {
+	font-size: 7rem !important;
+}
+
+.cityName {
+	font-size: 3rem;
+}
+
+.cityTimeZone {
+	font-size: 1rem;
+}
+
+.forecast {
+	max-width: 70%;
+}
+
+.icons {
+	width: 3rem !important;
+	margin-top: 0.1rem;
+}
+
+.cityAndTime {
+	/* d-flex flex-column align-items-left mx-2 */
+	display: flex;
+	flex-direction: column;
+	align-items: left;
+	margin-left: 5px;
+}
+
+.weatherAndIcon {
+	/* d-flex flex-column align-items-center mx-2 mb-3 */
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	margin-left: 5px;
+	margin-bottom: 2px;
+}
+
+.nav {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+
+.burgerMenu {
+	display: flex;
+}
+
+.menuBtn {
+	display: flex;
+}
+
+.closeBtn {
+	display: flex;
+}
+
+.leftOverflow {
+	overflow-x: hidden;
+	overflow-y: hidden;
+}
+
+.contentPosition {
+	position: relative;
+	top: 8rem !important;
+}
